@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* todo Début de header */
+header {
+    padding: 30px 8%;
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 115%;
+    background-position-y: -6.5rem;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: hsl(233, 12%, 13%);
+}
+
+nav ul li a:hover {
+    color: hsl(234, 10%, 59%);
+}
+
+header .btn {
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+header .btn:hover {
+    color: #fff;
+    background-color: hsl(11, 72%, 69%);
+}
+
+.illustration {
+    background-image: url(images/bg-simplify-section-desktop.svg);
+    background-size: cover;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+header aside {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+header aside .text {
+    flex-basis: 40%;
+    margin-top: 3rem;
+}
+
+.text h1 {
+    margin-bottom: 2rem;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.text p {
+    margin-bottom: 3rem;
+    color: hsl(234, 10%, 59%);
+    margin-right: 6rem;
+}
+
+#closeMenu,
+#openMenu {
+    display: none;
+}
+
+/* todo Fin header */
+
+/* todo Début section manage */
+.manage {
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.definition {
+    flex-basis: 48%
+}
+
+.subject {
+    flex-basis: 30%;
+}
+
+.subject h1 {
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+}
+
+.manage p {
+    color: hsl(234, 10%, 59%);
+}
+
+.head {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.definition .btn {
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.def1,
+.def2 {
+    margin-bottom: 2rem;
+}
+
+:is(.def1, .def2, .def3) p {
+    margin-left: 5rem;
+}
+
+/* todo Fin section manage */
+
+/* todo Début section proof */
+.proof {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.proof h1 {
+    text-align: center;
+    color: hsl(228, 39%, 23%);
+}
+
+.proof aside {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: inherit;
+}
+
+.proof aside div {
+    background-color: hsl(240, 26%, 96%);
+    margin: 0 15px;
+    text-align: center;
+    width: 500px;
+}
+
+.proof aside h3 {
+    margin-bottom: 1rem;
+    color: hsl(228, 39%, 23%);
+}
+
+.proof aside div img {
+    width: 20%;
+    transform: translateY(-2rem);
+}
+
+.proof aside p {
+    padding: 0px 30px 20px 30px;
+    color: hsl(234, 10%, 59%);
+}
+
+.proof a {
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.proof a:hover {
+    color: #fff;
+    background-color: hsl(11, 72%, 69%);
+}
+
+.splide {
+    display: none;
+}
+
+/* todo Fin section proof */
+
+/* todo Début section simplify */
+.simplify {
+    background-image: url(images/bg-simplify-section-desktop.svg);
+    background-position-y: -8rem;
+    background-position-x: 5rem;
+    margin-top: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 8%;
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+}
+
+.simplify a {
+    color: hsl(12, 88%, 59%);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.simplify h1 {
+    font-size: 35px;
+    flex-basis: 40%;
+}
+
+/* todo Fin section simplify */
+
+/* todo Début footer */
+footer {
+    padding: 3% 8%;
+    background-color: hsl(233, 12%, 13%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    text-align: center;
+    background-color: hsl(233, 12%, 13%);
+    color: hsl(234, 10%, 59%);
+    font-size: 15px;
+    display: none;
+}
+
+.elem1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem1 img {
+    width: 50%;
+}
+
+.elem2 {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: .3;
+}
+
+.elem2 ul li {
+    padding: 8px 0;
+}
+
+.elem2 ul li a {
+    color: #fff;
+}
+
+.elem2 ul li a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+.elem3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elem3 p {
+    color: #fff;
+}
+
+.socialLinks img:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+footer i {
+    color: #fff;
+    padding: 0 5px;
+    font-size: 22px;
+}
+
+footer i:hover {
+    color: hsl(12, 88%, 59%)
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#search::placeholder {
+    color: hsl(234, 10%, 59%);
+}
+
+#search {
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: black;
+}
+
+/* todo Fin footer */
+
+@media(width <=992px) {
+
+    /* ! Début section simplify */
+    .simplify {
+        padding: 5rem 10%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .simplify h1 {
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+
+    /* ! Fin section simplify */
+
+    /* ? Début section manage */
+    .manage {
+        padding: 0 3%;
+        flex-direction: column;
+    }
+
+    .subject {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    :is(.def1, .def2, .def3) p {
+        margin-left: 0px;
+    }
+
+    .definition .btn {
+        padding: 8px 15px;
+    }
+
+    .head {
+        gap: 10px;
+        background-image: url(images/bg-simplify-section-mobile.svg);
+    }
+
+    /* ? Fin section manage */
+
+    /* todo Début header */
+    header {
+        background-size: 100%;
+        background-position-y: -2rem;
+        background-position-x: 5rem;
+    }
+
+    header aside {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .text p {
+        text-align: center;
+        margin: 0 auto 3rem auto;
+    }
+
+    header nav .btn {
+        display: none;
+    }
+
+    .illustration img {
+        width: 100%;
+    }
+
+    #closeMenu,
+    #openMenu {
+        display: block;
+        cursor: pointer;
+    }
+
+    #sideMenu li {
+        display: block;
+        padding: 15px;
+        font-weight: 700;
+    }
+
+    #sideMenu li a {
+        color: hsl(228, 39%, 23%)
+    }
+
+    #sideMenu {
+        background-color: #fff;
+        padding: 20px;
+        width: 75%;
+        position: absolute;
+        top: 80px;
+        text-align: center;
+        display: none;
+        transition: display .5s;
+    }
+
+    #closeMenu {
+        position: fixed;
+        top: 30px;
+        right: 8%;
+        display: none;
+    }
+
+    /* todo Fin header */
+
+    /* ! Début section proof */
+    .splide {
+        display: block;
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+        padding: 5% 4%;
+    }
+
+    .splide img {
+        width: 20%;
+    }
+
+    .splide img,
+    .splide h3 {
+        margin-bottom: 1rem;
+    }
+
+    .splide p {
+        margin-bottom: 3rem;
+    }
+
+    .proof aside {
+        display: none;
+    }
+
+    button.splide__pagination__page {
+        border: 1px solid hsl(12, 88%, 59%);
+        background: #fff;
+        transform: translateY(-3rem);
+    }
+
+    button.splide__pagination__page.is-active {
+        transform: translateY(-3rem);
+        background: hsl(12, 88%, 59%);
+    }
+
+    .splide__slide {
+        background-color: hsl(240, 26%, 96%);
+    }
+
+    .splide__arrow {
+        transform: translateY(-3rem);
+        margin: 15px;
+    }
+
+    /* ! Fin section proof */
+}
+
+@media(width < 340px) {
+    button.splide__pagination__page.is-active {
+        transform: translateY(-2rem);
+    }
+
+    button.splide__pagination__page {
+        transform: translateY(-2rem);
+    }
+}
+
+@media(width < 370px) {
+    .splide__arrow {
+        transform: translateY(-4rem);
+        margin: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1060px) {
+    header {
+        padding: 4%;
+    }
+
+    .proof aside div img {
+        width: 20%;
+        transform: translateY(-1.5rem);
+    }
+}
+
+@media(width < 810px) {
+    .copyright {
+        display: block;
+        padding: 10px;
+        padding-bottom: 10px;
+        border: none;
+    }
+
+    .elem3 p {
+        display: none;
+    }
+
+    footer {
+        padding: 30px 10px;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .elem1 {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .elem1 img {
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .elem2 li {
+        text-align: left;
+    }
+
+    .elem2 {
+        margin: 40px;
+    }
+
+    form {
+        margin: 40px 0 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .socialLinks i {
+        padding: 0 10px;
+        font-size: 30px;
+    }
+
+    .socialLinks {
+        margin-bottom: 2rem;
+    }
+
+    #search {
+        height: 25px;
+        width: 70%;
+        border-radius: 25px;
+    }
+
+    input[type="submit"] {
+        height: 45px;
+        border-radius: 25px;
+        width: 20%;
+    }
+}
