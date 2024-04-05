@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub)
-- Live Site URL: [Manange landing page](https://a-manage-landing-page.netlify.app/)
+- Live Site URL: [Manage landing page](https://a-manage-landing-page.netlify.app/)
 
 ## My process
 
